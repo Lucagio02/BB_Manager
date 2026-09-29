@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bb_manager
+    username: postgres
+    password: Viascoppo1
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
