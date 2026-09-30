@@ -34,4 +34,7 @@ public class Booking {
 
     @Column(nullable = false)
     private String stato;
+
+    @Column(nullable = false)
+    private Integer numeroOspiti;
 }

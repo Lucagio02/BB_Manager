@@ -29,7 +29,7 @@ public class Room {
     private String descrizione;
 
     @Column(nullable = false)
-    private boolean disponibile;
+    private Boolean Disponibile;
 
 
 }
